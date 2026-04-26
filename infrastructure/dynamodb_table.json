@@ -1,0 +1,16 @@
+{
+  "TableName": "ProcessedFiles",
+  "KeySchema": [
+    {
+      "AttributeName": "file_id",
+      "KeyType": "HASH"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "file_id",
+      "AttributeType": "S"
+    }
+  ],
+  "BillingMode": "PAY_PER_REQUEST"
+}

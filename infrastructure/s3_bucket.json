@@ -1,0 +1,5 @@
+{
+  "BucketName": "smart-serverless-input-bucket",
+  "Folder": "uploads/",
+  "Versioning": "Disabled"
+}

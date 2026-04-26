@@ -1,0 +1,4 @@
+{
+  "LogGroupName": "/aws/lambda/smart-file-processor",
+  "RetentionInDays": 7
+}

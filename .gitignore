@@ -1,0 +1,93 @@
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# ENV FILES (IMPORTANT - SECRETS)
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# AWS / CREDENTIALS (CRITICAL)
+# =========================
+.aws/
+aws-credentials
+credentials
+config
+
+# NEVER PUSH KEYS
+*.pem
+*.key
+
+# =========================
+# LOG FILES
+# =========================
+*.log
+logs/
+log/
+error.log
+output.log
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / EDITORS
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# NODE (IF ANY FUTURE USE)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# TERRAFORM (IF USED LATER)
+# =========================
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+override.tf
+override.tf.json
+*.tfvars
+
+# =========================
+# ZIP / BUILD FILES
+# =========================
+*.zip
+*.tar
+*.gz
+
+# =========================
+# JUPYTER NOTEBOOK CHECKPOINTS
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# TEMP FILES
+# =========================
+tmp/
+temp/
+*.tmp
